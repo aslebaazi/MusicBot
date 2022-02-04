@@ -34,7 +34,7 @@ owner = 0
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be a mention of the bot (@Botname play)
 
-prefix = "@mention"
+prefix = "!play"
 
 
 // If you set this, it modifies the default game of the bot
@@ -94,7 +94,7 @@ npimages = false
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 
-stayinchannel = false
+stayinchannel = true
 
 
 // This sets the maximum amount of seconds any track loaded can be. If not set or set
@@ -112,7 +112,7 @@ alonetimeuntilstop = 0
 // This sets an alternative folder to be used as the Playlists folder
 // This can be a relative or absolute path
 
-playlistsfolder = "Playlists"
+playlistsfolder = "!Playlists"
 
 
 // By default, the bot will DM the owner if the bot is running and a new version of the bot
